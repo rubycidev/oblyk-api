@@ -101,7 +101,7 @@ gem 'oj'
 # Zip gen
 gem 'rubyzip', '~> 2.3', '>= 2.3.2'
 
-gem "ruby_ci", github: "RubyCI/ruby_ci_gem", branch: "bugfix/188183739-increase-ruby-support"
+gem "ruby_ci"
 
 group :development, :test do
   gem 'bullet'
